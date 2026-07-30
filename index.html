@@ -1,53 +1,88 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-
+<!doctype html>
+<html lang="en">
 <head>
-<title>Hello World</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Therightcatlab — electronic musician and multimedia artist exploring SuperCollider, Blender and interactive audio-visual interfaces.">
+  <title>therightcatlab — about & interests</title>
+
+  <style>
+    :root{
+      --bg:#fff;
+      --text:#111;
+      --muted:#555;
+      --accent:#222;
+      --maxw:900px;
+      font-size:16px;
+    }
+    html,body{height:100%;margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.5}
+    .wrap{max-width:var(--maxw);margin:2rem auto;padding:1rem}
+    h1,h2,h3{margin:.5rem 0;color:var(--accent)}
+    p{margin:.5rem 0}
+    ul{margin:.25rem 0 1rem 1.25rem}
+    .section{margin-top:1.25rem}
+    .contact a{color:var(--accent);text-decoration:none}
+    .muted{color:var(--muted);font-size:.95rem}
+    @media (max-width:520px){
+      .wrap{padding:.75rem;margin:1rem}
+    }
+  </style>
 </head>
-
 <body>
+  <div class="wrap">
+    <header>
+      <h1>therightcatlab</h1>
+      <p class="muted">electronic musician · multimedia artist · interactive sound</p>
+    </header>
 
-<p><font size="2" face="Arial, Helvetica, sans-serif"><strong>&#8226; [about]</strong></font></p>
-<p><font size="2" face="Arial, Helvetica, sans-serif">
-    I began in the early 90s as an electronic musician, </br>
-    writing and producing soundtracks </br>
-    both solo and in collaboration with other artists, </br>
-    with an experimental approach to popular music, </br>
-    and performing live to support the recording releases. </p>
-    <p>Currently I have been also exploring technologies such as lighting, </br>
-    videomapping and coding, designing interactive interfaces </br>
-    and developing soundscapes for performances and art installations.</font></p>
+    <main>
+      <section class="section" aria-labelledby="about-heading">
+        <h2 id="about-heading">About</h2>
+        <p>
+          I began in the early 90s as an electronic musician, writing and producing soundtracks both solo and in collaboration
+          with other artists. My work blends experimental approaches to popular music with live performance to support releases.
+        </p>
+        <p>
+          Currently I explore lighting, videomapping and coding—designing interactive interfaces and developing soundscapes
+          for performances and art installations.
+        </p>
+      </section>
 
+      <section class="section" aria-labelledby="interests-heading">
+        <h2 id="interests-heading">Interests</h2>
 
-<h3><font size = "2" face="Arial, Helvetica, sans-serif"><strong>&#8226; [interests]</strong></font></h3>
-<p><font size = "2" face="Arial, Helvetica, sans-serif"><strong>SuperCollider </strong></font></p>
-<p><font face="Arial, Helvetica, sans-serif">
-    &#8226; JITLib<font size="2">__[livecoding]</em></font><br>
-    &#8226; ATK<font size="2">____[ambisonics]</em></font><br>
-    &#8226; FFT<font size="2">____[phase_vocoder]</em></font><br>
-</font>
-</p>
+        <h3>SuperCollider</h3>
+        <ul>
+          <li>JITLib — livecoding</li>
+          <li>ATK — ambisonics</li>
+          <li>FFT — phase vocoder / spectral processing</li>
+        </ul>
 
-<p><font size = "2" face="Arial, Helvetica, sans-serif"><strong>Blender </strong></font></p>
-<p><font face="Arial, Helvetica, sans-serif">
-    &#8226; Modelling<br>
-    &#8226; Rigging<br>
-    &#8226; Animation<br>
-</font>
-</p>
+        <h3>Blender</h3>
+        <ul>
+          <li>Modelling</li>
+          <li>Rigging</li>
+          <li>Animation</li>
+        </ul>
 
-<p><font size = "2" face="Arial, Helvetica, sans-serif"><strong>Programming Languages </strong></font></p>
-<p><font face="Arial, Helvetica, sans-serif">
-    &#8226; C, C++, and Objective C<br>
-    &#8226; Java (Processing)<br>
-</font>
-</p>
+        <h3>Programming</h3>
+        <ul>
+          <li>C, C++, Objective-C</li>
+          <li>Java (Processing) — prototyping</li>
+        </ul>
+      </section>
 
+      <section class="section contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <p>
+          <a href="mailto:therightcatlab@gmail.com" aria-label="Email therightcatlab">therightcatlab@gmail.com</a>
+        </p>
+      </section>
+    </main>
 
-<p><font face="Arial, Helvetica, sans-serif"><font size="2"><a href="mailto:therightcatlab@gmail.com">contact_[email]</a></font></font></p>
-
+    <footer class="muted" role="contentinfo">
+      <p>© therightcatlab</p>
+    </footer>
+  </div>
 </body>
-
-
 </html>
